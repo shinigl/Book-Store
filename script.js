@@ -177,14 +177,14 @@ const toggleDarkMode = document.querySelector(".toggle");
 
 toggleDarkMode.addEventListener("click", () => {
     if (document.body.classList.contains("dark-mode")) {
-        document.body.classList.remove("dark-mode");  // Remove dark mode
+        document.body.classList.remove("dark-mode");  
         document.getElementById('book-logo').style.color = "#000"; 
         document.getElementById('profile').style.color = "#000"; 
         document.getElementById('right-header').style.color = "#4f2ee8";
     } else {
-        document.body.classList.add("dark-mode");  // Add dark mode
-        document.getElementById('book-logo').style.color = "#fff"; // Change logo color to white
-        document.getElementById('right-header').style.color = "goldenrod"; // Reset logo color to black (or default)
+        document.body.classList.add("dark-mode");  
+        document.getElementById('book-logo').style.color = "#fff"; 
+        document.getElementById('right-header').style.color = "goldenrod"; 
         document.getElementById('profile').style.color = "#fff"; 
     }
 });

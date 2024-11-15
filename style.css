@@ -592,6 +592,7 @@ body.dark-mode .book-item {
        text-align: center;
         justify-content: center; 
         align-items: flex-start; 
+        margin-bottom: 60px;
 
     }
 
